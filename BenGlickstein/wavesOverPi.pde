@@ -1,5 +1,5 @@
  /**
-  Assignment: MakeChap3
+  Assignment: Vertex Drawing
   Student: Ben Glickstein
   Pasadena City College, Fall 2024
   Course Name: DMA60 Creative Coding
@@ -90,8 +90,13 @@ void drawSea() {
 void drawShore() {
   fill(203, 189, 147);
   stroke (203, 189, 147);
-  rect(200, 0, 200, 100);
-    
+  //rect(200, 0, 200, 100);
+  beginShape();
+  vertex(300, 0);
+  vertex(500, 0);
+  vertex(400, 100);
+  vertex(-100, 100);
+  endShape(CLOSE);
   }
 
 //
