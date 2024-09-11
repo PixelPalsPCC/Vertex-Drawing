@@ -9,8 +9,15 @@
   */
   
 void setup () {
-  size (1000,1000);
-  background(0);
+  size (800,800);
+  background(162, 232, 229);
   
-
+  //background
+  
+  
+  //borders
+  strokeWeight(0);
+  fill(235, 216, 52);
+  rect(0,-1,800,150);
+  rect(0,651,800,150);
 }
