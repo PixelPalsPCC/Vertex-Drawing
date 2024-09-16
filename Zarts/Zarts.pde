@@ -24,7 +24,14 @@ line(491,576,528,568);
 line(531,568,552,589);
 line(419,591,548,590);
 //mouth bottom lip curve only 
-curve(418, 590, 418, 600, 550, 630,551, 590);
+noFill();
+beginShape();
+curveVertex(418, 590);
+curveVertex(418, 590);
+curveVertex(489, 630);
+curveVertex(550, 590);
+curveVertex(550, 590);
+endShape();
 
 line(489,632,489,729);
 
@@ -37,12 +44,13 @@ line(445,310,442,195);
 curve(443,217, 443 , 197 , 672 ,226 ,672,327);
 
 //left face outline curve
-//curve(179,311,179,311,279,731,490,731);
+
 noFill();
 beginShape();
 curveVertex(179,311);
 curveVertex(179,311);
-curveVertex(279,731);
+curveVertex(226,558);
+curveVertex(323,662);
 curveVertex(490,731);
 curveVertex(490,731);
 
