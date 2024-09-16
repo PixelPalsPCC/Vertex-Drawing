@@ -1,17 +1,17 @@
 //zoe face work in progress 
 void setup(){
-size(1000,1000);
+size(1000,1300);
 background(167,198,230);
 //noFill();
 strokeWeight(5);
-beginShape();
+//beginShape();
 line(180,310,275,310);
-//eye one pink 
-fill(123,120,150);
+//left eye purple 
+fill(120,80,140);
 ellipse(325,310,100,65);
 
-endShape();
-beginShape();
+//endShape();
+//beginShape();
 line(375,310,505,310);
 //nose
 line(505,310,375,500);
@@ -29,7 +29,7 @@ curve(418, 590, 418, 600, 550, 630,551, 590);
 line(489,632,489,729);
 
 //Rright eye pink
-fill(230,110,110);
+fill(250,100,110);
 ellipse(625,310,100,65);
 
 //forhead ines
@@ -37,8 +37,21 @@ line(445,310,442,195);
 curve(443,217, 443 , 197 , 672 ,226 ,672,327);
 
 //left face outline curve
-curve(179,311,179,311,279,731,490,731);
+//curve(179,311,179,311,279,731,490,731);
+noFill();
+beginShape();
+curveVertex(179,311);
+curveVertex(179,311);
+curveVertex(279,731);
+curveVertex(490,731);
+curveVertex(490,731);
+
+
 endShape();
+
+//neck
+fill(19.235,40);
+ellipse(519,1174,360, 244);
 
 }
 
