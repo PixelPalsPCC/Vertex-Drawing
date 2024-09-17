@@ -36,12 +36,16 @@ fill(51,51,51);//dark grey
 rect(450, 500, 300, 600); //lower big rectangle
 strokeWeight(0);
 
+strokeWeight(2);
 line(900,160,400,160); //top horizontal line
 
+strokeWeight(2);
 line(430,200,430,height-800); //top vertical line
 
+strokeWeight(2);
 line(330,710,0,710); //bottom horizontal line
 
+strokeWeight(2);
 line(40,450,40,height-10); //bottom vertical line
 
 
