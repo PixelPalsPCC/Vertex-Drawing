@@ -1,13 +1,13 @@
 //zoe face work in progress 
 void setup(){
-size(1000,1300);
-background(167,198,230);
+size(1000,1000);
+background(195,205,230);
 //noFill();
 strokeWeight(5);
 //beginShape();
 line(180,310,275,310);
 //left eye purple 
-fill(120,80,140);
+fill(235,205,255);
 ellipse(325,310,100,65);
 
 //endShape();
@@ -18,13 +18,13 @@ line(505,310,375,500);
 line(376,503,487,499);
 //mouth top lip
 line(487,503,489,575);
-line(488,576,454,564);
-line(454,564,418,588);
-line(491,576,528,568);
-line(531,568,552,589);
-line(419,591,548,590);
+line(489,575,454,564);
+line(454,564,418,591);
+line(491,576,528,564);
+line(531,564,552,589);
+line(418,591,548,590);
 //mouth bottom lip curve only 
-noFill();
+fill(255,108,108);
 beginShape();
 curveVertex(418, 590);
 curveVertex(418, 590);
@@ -36,12 +36,21 @@ endShape();
 line(489,632,489,729);
 
 //Rright eye pink
-fill(250,100,110);
+fill(251,198,207);
 ellipse(625,310,100,65);
 
 //forhead ines
 line(445,310,442,195);
-curve(443,217, 443 , 197 , 672 ,226 ,672,327);
+noFill();
+beginShape();
+curveVertex(443,194);
+curveVertex( 443 , 194);
+curveVertex(610,211);
+curveVertex(676,309);
+curveVertex(652 ,337 );
+curveVertex(652,337);
+endShape();
+
 
 //left face outline curve
 
